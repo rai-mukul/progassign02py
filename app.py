@@ -136,4 +136,4 @@ def get_character_by_name_tx(tx, name):
     return serialize_node(result.single()['c'])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
